@@ -19,7 +19,7 @@ from django.conf.urls import include
 from cv_app import views
 
 urlpatterns = [
-    path('',views.root_page),
-    path('cv_app',include('cv_app.urls')),
+    #path('',views.root_page),
+    path('cv_app/',include('cv_app.urls')),
     path('admin/', admin.site.urls),
 ]

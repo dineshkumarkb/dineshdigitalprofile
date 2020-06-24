@@ -21,4 +21,5 @@ from cv_app import views
 
 urlpatterns = [
     path('', views.root_page),
+    path('formpage', views.form_page),
 ]
