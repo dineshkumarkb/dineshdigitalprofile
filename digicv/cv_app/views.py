@@ -11,10 +11,12 @@ import os
 
 def root_page(request):
     resume_contents = { 'resume_title': '''Python Cloud Developer.AWS Certified solutions architect associate.
-    Certified scrum master'''
+    Certified scrum master''',
+                        'stack_url':'https://stackoverflow.com/users/5907578/dineshkumar',
+                        'medium_url':'https://medium.com/@dineshkumarkb',
+                        'linked_url':'https://www.linkedin.com/in/dineshkumar-k-b-b8853a24/',
+                        'github_url':'https://github.com/dineshkumarkb'}
 
-    }
-    print(request)
     return render(request,'cv_app/landing.html',context=resume_contents)
 
 
