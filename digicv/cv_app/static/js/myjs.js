@@ -8,3 +8,12 @@ function hello(){
   console.log(" Hello world ");
   $('#mycarousel').carousel('cycle')
   }
+
+$("#sobutton").on('click',function(){
+  console.log("Clicked");
+})
+
+
+function changeColor(event){
+console.log("Event received" + event)
+}
