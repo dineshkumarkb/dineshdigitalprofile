@@ -13,9 +13,12 @@ height: 600px;
 #mycarousel{
 
 width: 600px;
-height: 400px;
+height: auto;
+margin: auto;
 
 }
+
+
 
 
 body{

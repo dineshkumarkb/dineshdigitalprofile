@@ -23,4 +23,5 @@ app_name = 'cv_app'
 urlpatterns = [
     path('', views.root_page),
     path('formpage', views.form_page),
+    path('classview',views.IndexView.as_view())
 ]
