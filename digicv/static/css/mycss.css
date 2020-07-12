@@ -1,3 +1,68 @@
-#sobutton{
-  background-color: color.red;
+.jumbotron{
+background-color: black;
 }
+
+
+/*.carousel-item{
+
+width: 600px;
+height: 600px;
+
+}*/
+
+#mycarousel{
+
+width: 600px;
+height: auto;
+margin: auto;
+
+}
+
+
+
+
+body{
+
+background-color: #fef1d2;
+
+}
+
+#mynavbar{
+
+background-color: black;
+
+}
+
+
+#mytitle{
+
+color: #fef1d2;
+
+}
+
+
+#sobutton:hover{
+background-color: orange !important;
+color: blue !important;
+}
+
+#medbutton:hover{
+background-color: white !important;
+color: blue !important;
+}
+
+
+#linkedbutton:hover{
+
+background-color: green !important;
+color: blue !important;
+
+}
+
+#gitbutton:hover{
+
+background-color: grey !important;
+color: blue !important;
+
+}
+
