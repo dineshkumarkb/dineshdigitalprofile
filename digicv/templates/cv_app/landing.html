@@ -97,15 +97,9 @@
           <p class="card-text" class="p-3 mb-2 bg-info text-white">Python BackEnd Developer | NLP | Data Science | AWS | Android SDK Developer</p>
         <body>
            <ul>
-             <li>Maintenance of back end server for collecting and displaying video player data.</li>
-              <li>Developed an automation framework for simulating sample heartbeats to BackEnd server</li>
-              <li>Worked on libraries like SimpleHTTPServer,optparse,sockets,urllib2,requests,sqlite3,json.</li>
-              <li>Work experience in devops tools such as jfrog artifactory and gitlab runners</li>
-             <li>Feature owner for offline video metrics collection</li>
-             <li>Developed a python wrapper for sagemaker jupyter notebook instances</li>
-             <li>Feature owner for enabling data sharing between multiple jupyter notebook instances for data scientists </li>
-             <li>Implemented group based authentication for AWS EFS</li>
-             <li> Designed and developed a data deidentication tool using spacy(NLP)</li>
+               {% for val in conviva_exp %}
+               <li>{{ val }}</li>
+               {% endfor %}
            </ul>
           </body>
       </div>
@@ -124,10 +118,9 @@
           <p class="card-text">Python developer | Android SDK developer</p><body>
           </body>
         <ul>
-           <li>Developed sample android audio players for playback of HLS, Smooth Streaming contents</li>
-           <li>Triaged high priority customer issues and provided solutions on call</li>
-           <li>Enhancements and maintenance of conviva metrics collection portal</li>
-          <li>Worked on conviva library upgrade for metrics monitoring of android video players like Ooyala, Nex Streaming, Irdeto, Exo Player, BrightCove</li>
+            {% for myval in harman_exp %}
+           <li>{{ myval }}</li>
+            {% endfor %}
         </ul>
       </div>
     </div>
@@ -153,11 +146,7 @@
       </div>
     </div>
 
-
-
-
-
-
+      
     <div class="card text-white bg-dark mx-auto border-primary mb-3" style="width: 70rem;">
       <div class="card-header text-success">
         Wipro Technologies 2009 - 2011

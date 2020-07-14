@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import View, TemplateView
 from cv_app import forms
+from cv_app.exp_constants import (CONVIVA, HARMAN)
 #from . import forms
 
 import os
@@ -21,7 +22,9 @@ def root_page(request):
                         'nav_link1':"Career",
                         'nav_link2':"Certifications",
                         'nav_link3':"Personal Projects",
-                        "nav_link4":"Roles and Responsibilities"}
+                        "nav_link4":"Roles and Responsibilities",
+                        "conviva_exp": CONVIVA,
+                        "harman_exp" : HARMAN}
 
     return render(request,'cv_app/landing.html',context=resume_contents)
 
