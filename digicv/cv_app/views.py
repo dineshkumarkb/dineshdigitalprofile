@@ -17,6 +17,7 @@ CONTEXT_DICT = { 'resume_title': '''Python Cloud Developer. 11 years of industry
                         'medium_url':'https://medium.com/@dineshkumarkb',
                         'linked_url':'https://www.linkedin.com/in/dineshkumar-k-b-b8853a24/',
                         'github_url':'https://github.com/dineshkumarkb',
+                        'hackerrank_url':'https://www.hackerrank.com/dineshkumarkb?hr_r=1',
                         'nav_link1':"Career",
                         'nav_link2':"Certifications",
                         'nav_link3':"Personal Projects",

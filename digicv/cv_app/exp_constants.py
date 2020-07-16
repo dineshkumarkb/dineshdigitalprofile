@@ -1,4 +1,7 @@
-CONVIVA = ["Maintenance of back end server for collecting and displaying video player data.",
+CONVIVA = ["Design and implement RESTful APIs in flask",
+           "Write unit tests in pytest framework to ensure coverage",
+           "Peer review and code reviews to ensure coding standards",
+           "Maintenance of back end server for collecting and displaying video player data.",
            "Developed an automation framework for simulating sample heartbeats to BackEnd server",
            "Worked on libraries like SimpleHTTPServer,optparse,sockets,urllib2,requests,sqlite3,json.",
            "Work experience in devops tools such as jfrog artifactory and gitlab runners",
