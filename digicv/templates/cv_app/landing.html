@@ -51,35 +51,38 @@
 <br>
 
 <div class="container">
-  <div class="jumbotron">
+  <div class="jumbotron col-md-12 col-sm-6 col-lg-12">
     <h2 class="text-primary">Python Developer</h2>
     <p id="mytitle" class="lead">{{ resume_title }}</p>
     <hr class="my-4">
 
     <div class="row">
 
-      <div class="col-sm-2 mx-auto">
-           <button id='sobutton' type="button" class="btn btn-outline-warning btn-block text-nowrap" style="color:orange" onclick="window.open('{{ stack_url }}')">
+      <div class="col-sm-6 col-md-4 col-lg-2">
+           <button id='sobutton' type="button" class="btn  btn-outline-warning btn-block text-nowrap" style="color:orange" onclick="window.open('{{ stack_url }}')">
                <i class="fab fa-stack-overflow mr-1"></i>Stack Overflow</button>
       </div>
 
 
-      <div class="col-sm-2 mx-auto">
+      <div class="col-sm-6 col-md-4 col-lg-2">
          <button id="medbutton" type="button" class="btn btn-secondary btn-block" style="color:white"
          onclick="window.open('{{ medium_url }}')"><i class="fab fa-medium-m mr-2"></i>Medium</button>
       </div>
 
-       <div class="col-sm-2 mx-auto">
+       <div class="col-sm-6 col-md-4 col-lg-2">
          <button id="linkedbutton" type="button" class="btn btn-outline-success btn-block" style="color:green"
                  onclick="window.open('{{ linked_url }}')"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</button>
       </div>
 
-       <div class="col-sm-2 mx-auto">
+        <br>
+        <br>
+
+       <div class="col-sm-6 col-md-4 col-lg-2">
          <button id="gitbutton" type="button" style="color:blue" class="btn btn-outline-light btn-block"
                  onclick="window.open('{{ github_url }}')"><i class="fab fa-github mr-2"></i>GitHub</button>
       </div>
 
-        <div class="col-sm-2 mx-auto">
+        <div class="col-sm-6 col-md-4 col-lg-2">
          <button id="hackbutton" type="button" style="color:blue" class="btn btn-outline-dark btn-block"
                  onclick="window.open('{{ hackerrank_url }}')"><i class="fab fa-hackerrank mr-2"></i>HackerRank</button>
       </div>

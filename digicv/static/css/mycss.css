@@ -21,6 +21,7 @@ margin: auto;
 
 
 
+
 body{
 
 background-color: #fef1d2;
@@ -37,6 +38,14 @@ background-color: black;
 #mytitle{
 
 color: #fef1d2;
+
+}
+
+#mylinkedin{
+
+margin: auto;
+width: auto;
+height: auto;
 
 }
 
@@ -62,6 +71,13 @@ color: blue !important;
 #gitbutton:hover{
 
 background-color: grey !important;
+color: blue !important;
+
+}
+
+#hackbutton:hover{
+
+background-color: green !important;
 color: blue !important;
 
 }
