@@ -32,6 +32,11 @@ def root_page(request):
     return render(request,'cv_app/landing.html',context=resume_contents)
 
 
+def load_page(request):
+
+    return render(request,'cv_app/loading.html')
+
+
 def form_page(request):
     form = forms.FormName()
 
